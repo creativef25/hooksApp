@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
-import { Memorize } from './06-memos/Memorize'
+import { MemoHook } from './06-memos/MemoHook'
+//import { Memorize } from './06-memos/Memorize'
 //import { Layout } from './05-useLayoutEffect/Layout'
 //import { FocusScreen } from './04-useRef/FocusScreen'
 //import { MultipleCustomsHooks } from './03-examples/MultipleCustomsHooks'
@@ -15,5 +16,5 @@ import { Memorize } from './06-memos/Memorize'
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   // </StrictMode>
-    <Memorize/>
+    <MemoHook/>
 )
