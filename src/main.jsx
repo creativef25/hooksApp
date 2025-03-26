@@ -1,8 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './index.css'
 import { Padre } from './07-tarea-memo/07-tarea-memo/Padre'
+
+//import './08-useReducer/intro-reducer'
+
+import './index.css'
+import { TodoApp } from './08-useReducer/TodoApp'
 //import { CallbackHook } from './06-memos/CallbackHook'
 //import { MemoHook } from './06-memos/MemoHook'
 //import { Memorize } from './06-memos/Memorize'
@@ -18,5 +22,5 @@ import { Padre } from './07-tarea-memo/07-tarea-memo/Padre'
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   // </StrictMode>
-    <Padre/>
+  <TodoApp/>
 )
